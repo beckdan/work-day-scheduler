@@ -27,6 +27,7 @@ This project utilizes:
 
 ​
 Deployed link: 
+
 ​
 ## Technologies
 ​

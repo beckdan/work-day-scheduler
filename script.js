@@ -11,15 +11,12 @@ $(document).ready(function(){
         var el =$("button[data-time='"+i+"']")
         if(el){
             el.parent().find("textarea").text(currentTime)
-
-           // el.parentElement.children[1].textContent = currentTime
-            console.log(el.parent())
         }
+        
     }
-    // let value = localStorage.getItem(value)
-    // localStorage.getItem(value)
 })
 
+$(".row").css("background-color", "grey")
 
 $('#currentDay').text(moment().format('MMMM Do YYYY, h:mm a'))
 
@@ -31,15 +28,3 @@ $('.save-btn').on('click', function(){
 })
 
 
-
-
-
-
-
-
-
-
-
-// function init(){
-//     let value = JSON.parse(localStorage.getItem('.description')
-//     )};
